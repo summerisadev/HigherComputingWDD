@@ -1,0 +1,53 @@
+/* The Universal Selector has been used here to cancel the browser default margins and */
+/* padding for every page element.  This ensures that only assigned */
+/* margin and padding values are implemented when viewing pages. */
+* {margin:0;padding:0}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+/* Background Colours */
+body, header {background-color: rgb(213,129,29)}
+nav, footer {background-color: rgb(193,63,48)}
+main {background-color: rgb(206, 159, 138)}
+
+
+/* Text Properties */
+h1 {color: rgb(103,63,48)}
+main {color: rgb(103,63,48)}
+* {font-family: 'Poppins', sans-serif}
+
+
+/* Image Propeties */
+.imageBanner {float: right}
+#studentImage {float: left}
+
+
+/* Margins */
+
+
+
+/* Padding */
+
+
+
+/* Positioning (Float, Display and Clear) */
+header, nav, main, footer {clear: both}
+
+
+
+/* Element Sizes */
+
+
+
+/* Navigation List Properties */
+li {display: inline}
+.navlink {
+    text-decoration: none;
+    color: black;
+}
+.navactive {
+    background-color: rgb(221, 136, 127);
+}
+
+
