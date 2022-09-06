@@ -41,13 +41,11 @@ header, nav, main, footer {clear: both}
 
 
 /* Navigation List Properties */
-li {display: inline}
 .navlink {
     text-decoration: none;
     color: black;
+    display: inline;
 }
 .navactive {
     background-color: rgb(221, 136, 127);
 }
-
-
