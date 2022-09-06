@@ -13,13 +13,13 @@ main {background-color: rgb(206, 159, 138)}
 
 
 /* Text Properties */
-h1 {color: rgb(103,63,48)}
+h1 {color: rgb(103,63,48); }
 main {color: rgb(103,63,48)}
 * {font-family: 'Poppins', sans-serif}
 
 
 /* Image Propeties */
-.imageBanner {float: right}
+.imageBanner {float: right; display: inline;}
 #studentImage {float: left}
 
 
