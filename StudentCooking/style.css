@@ -1,7 +1,10 @@
 /* The Universal Selector has been used here to cancel the browser default margins and */
 /* padding for every page element.  This ensures that only assigned */
 /* margin and padding values are implemented when viewing pages. */
-* {margin:0;padding:0}
+body {
+    margin: 0px;
+    padding: 0px;
+}
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
@@ -13,14 +16,22 @@ main {background-color: rgb(206, 159, 138)}
 
 
 /* Text Properties */
-h1 {color: rgb(103,63,48); }
-main {color: rgb(103,63,48)}
+h1, h2 {display: inline; color: rgb(103,63,48); float: left;}
+main, a {color: rgb(206,159,138);}
 * {font-family: 'Poppins', sans-serif}
 
 
 /* Image Propeties */
-.imageBanner {float: right; display: inline;}
-#studentImage {float: left}
+.imageBanner {float: right;}
+#studentImage {float: left;}
+.iImage {
+    width:160px;
+    height: 120px;
+}
+.rImage {
+    width: 200px;
+    height: 150px;
+}
 
 
 /* Margins */
@@ -28,11 +39,21 @@ main {color: rgb(103,63,48)}
 
 
 /* Padding */
-
+.ingredientImages {
+    margin-left: 4rem;
+}
 
 
 /* Positioning (Float, Display and Clear) */
 header, nav, main, footer {clear: both}
+.ingredientImages {
+    display: inline;
+    float: left;
+}
+.ingredients {
+    display: inline;
+    float: right;
+}
 
 
 
@@ -47,5 +68,5 @@ header, nav, main, footer {clear: both}
     display: inline;
 }
 .navactive {
-    background-color: rgb(221, 136, 127);
+    background-color: rgb(221, 136, 126);
 }
