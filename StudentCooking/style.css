@@ -18,12 +18,14 @@ main {background-color: rgb(206, 159, 138)}
 /* Text Properties */
 h1, h2 {display: inline; color: rgb(103,63,48); float: left;}
 main, a {color: rgb(206,159,138);}
+main p {color: black;}
+.ingredients {color: black;}
 * {font-family: 'Poppins', sans-serif}
 
 
 /* Image Propeties */
-.imageBanner {float: right;}
-#studentImage {float: left;}
+.imageBanner {float: right;height:90px;width:520px;}
+#studentImage {float:left;height:120px;width:160px;}
 .iImage {
     width:160px;
     height: 120px;
@@ -35,13 +37,19 @@ main, a {color: rgb(206,159,138);}
 
 
 /* Margins */
-
+body {margin:auto;}
+h1 {margin-left:30px;margin-top:50px;}
+main {margin-top:10px;margin-bottom:10px;}
+h2, form {margin:10px;}
+#studentImage {margin-right:20px;margin-bottom:20px;}
 
 
 /* Padding */
 .ingredientImages {
     margin-left: 4rem;
 }
+main p {padding:10px;}
+footer {padding-left:10px;padding-top:20px;}
 
 
 /* Positioning (Float, Display and Clear) */
@@ -58,6 +66,10 @@ header, nav, main, footer {clear: both}
 
 
 /* Element Sizes */
+body {width:900px;}
+header {height:90px;}
+footer {height:90px;}
+nav {height:34px;}
 
 
 
@@ -66,6 +78,9 @@ header, nav, main, footer {clear: both}
     text-decoration: none;
     color: black;
     display: inline;
+}
+.navactive:hover {
+    background-color: ;
 }
 .navactive {
     background-color: rgb(221, 136, 126);

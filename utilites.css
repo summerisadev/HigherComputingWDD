@@ -1,0 +1,19 @@
+/* 
+    this is just a file with a bunch of things i often use - this isn't important 
+    this powers all redesigned assignments and the home page
+    because, ya know, a lot of this is SQA stuff
+*/
+
+* { /* Utility Colors */
+    --footer-color-light: #262322;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: left;
+    margin-left: 20px;
+    font-size: xx-small;
+    color: var(--footer-color-light);
+}
