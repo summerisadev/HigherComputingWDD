@@ -21,10 +21,12 @@ main, a {color: rgb(206,159,138);}
 main p {color: black;}
 .ingredients {color: black;}
 * {font-family: 'Poppins', sans-serif}
+.link {color: black;}
 
 
 /* Image Propeties */
 .imageBanner {float: right;height:90px;width:520px;}
+.flagBanner {width:75px;height:75px;float:right;margin-left:20px;margin-bottom:20px}
 #studentImage {float:left;height:120px;width:160px;}
 .iImage {
     width:160px;
@@ -33,6 +35,13 @@ main p {color: black;}
 .rImage {
     width: 200px;
     height: 150px;
+}
+.italianImages {
+    width: 140px;
+    height: 140px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 8px;
 }
 
 
@@ -79,9 +88,9 @@ nav {height:34px;}
     color: black;
     display: inline;
 }
-.navactive:hover {
+/* .navactive:hover {
     background-color: ;
-}
+} */
 .navactive {
     background-color: rgb(221, 136, 126);
 }

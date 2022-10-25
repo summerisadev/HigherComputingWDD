@@ -4,7 +4,7 @@
     because, ya know, a lot of this is SQA stuff
 */
 
-* { /* Utility Colors */
+:root { /* Utility Colors */
     --footer-color-light: #262322;
 }
 

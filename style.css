@@ -30,3 +30,22 @@ footer {
   color: white;
   text-align: center;
 }
+
+button {
+    padding: 5px;
+    transition: background-color 0.3s linear;
+}
+button:hover {
+    background-color: #5e5e5e;
+    color: #faf6f4;
+    transition: color 0.8s linear;
+    transition: background-color 0.2s linear;
+}
+
+#hidden {
+    opacity: 0;
+}
+
+.hidden {
+    opacity: 1;
+}

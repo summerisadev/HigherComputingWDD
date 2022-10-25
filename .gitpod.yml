@@ -1,6 +1,13 @@
 tasks:
   - name: Start web server
-    init: python -m http.server 8000
+    init: echo ".gitpod.yml\ Starting web server..."
+    command: python -m http.server 8000
+
+github:
+  prebuilds:
+    addBadge: true
+
+image: alpine:latest
 
 ports:
   - port: 8000

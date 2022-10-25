@@ -1,0 +1,46 @@
+div {border-width:1px;border-color:black;border-style:solid}
+img {width:150px;height:200px; margin: 10px;}
+h2 {font-size:12pt}
+p {font-size:10pt}
+
+body {padding: 4px;}
+
+#instruction {
+    margin-bottom: 10px;
+}
+
+#left {
+    float: left;
+    display: inline;
+}
+
+#right {
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+#middle {
+    /* display: none; */
+    padding: 5px;
+}
+
+section {clear: both;}
+
+.info-container {
+    margin-right: 5px;
+    margin-left: 5px;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    display: inline;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding-left: 5px;
+    border-width:1px;border-color:black;border-style:solid;
+}
