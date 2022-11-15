@@ -7,6 +7,7 @@ def ReadFile(filename):
 
     with open(filename, "r") as f:
         line = f.readline().rstrip('\n')
+        
         items = line.split(",")
         for purchaseCounter in range(0, len(items), 4):
             namesArray[counter] = items[purchaseCounter]
@@ -17,15 +18,15 @@ def ReadFile(filename):
 
     return (namesArray, datesArray, ticketsArray, priceArray)
 
-def DisplayPurchases(na,da,ta,pa):
+def DisplayPurchases(NamesArray,DatesArray,TicketsArray,PriceArray):
     counter = 0
 
-    for i in range(0, len(na)):
+    for i in range(0, len(NamesArray)):
         print(f'----- Sale {counter} -----')
-        print(f'Name: {na[i]}')
-        print(f'Date: {da[i]}')
-        print(f'No. of Tickets: {ta[i]}')
-        print(f'Final Price: £{pa[i]}')
+        print(f'Name: {NamesArray[i]}')
+        print(f'Date: {DatesArray[i]}')
+        print(f'No. of Tickets: {TicketsArray[i]}')
+        print(f'Final Price: £{PriceArray[i]}')
         print(f'\n')
         counter += 1
 
