@@ -7,8 +7,6 @@ github:
   prebuilds:
     addBadge: true
 
-image: alpine:latest
-
 ports:
   - port: 8000
     onOpen: open-preview
